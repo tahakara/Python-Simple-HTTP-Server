@@ -1,7 +1,6 @@
 import http.server
 import socketserver
 
-# Port numarası
 PORT = int(input("Port number: "))
 
 class SimpleHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
